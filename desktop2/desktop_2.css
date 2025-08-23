@@ -1,0 +1,156 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #6910A8;
+    color: black;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: #DCD9E9;
+}
+
+nav .logo img {
+    height: 30px;
+
+}
+
+nav .links a {
+    color: #6910A8;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+}
+
+nav .signout {
+    background-color: white;
+    color: #6910A8;
+    border: none;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Intro Section (Heading + Paragraph + Progress Bar) */
+.intro-section {
+    text-align: center;
+    padding: 30px 20px 10px;
+    color: white;
+}
+
+.intro-section h1 {
+    margin-bottom: 10px;
+}
+
+.intro-section p {
+    margin-bottom: 20px;
+}
+
+/* Progress Bar */
+
+.progress-wrapper {
+            width: 60%;
+            /* same width as screenshot */
+            margin: 20px auto;
+            /* center horizontally */
+        }
+
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        .progress-bar {
+            background-color: #eee;
+            /* light purple bg */
+            border-radius: 20px;
+            height: 20px;
+            width: 100%;
+            /* same height */
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background-color: #d299ff;
+            /* white fill */
+            height: 100%;
+            border-radius: 20px;
+        }
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4ecf8;
+    border-radius: 15px;
+}
+
+/* Student Info */
+.student-info h2 {
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.student-info form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.student-info input,
+.student-info select,
+.student-info textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+/* Full width for textarea */
+.student-info textarea {
+    resize: none;
+    width: 93%;
+    height: 100px;
+}
+
+/* Button */
+.next-btn {
+    background-color: #e5d4ff;
+            color: #333;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+}
+.next-btn:hover{
+    background-color: #d3b8ff;
+}
+
+/* Align button under form container */
+.button-wrapper {
+    max-width: 800px;
+    margin: 10px auto 40px;
+    text-align: right;
+}

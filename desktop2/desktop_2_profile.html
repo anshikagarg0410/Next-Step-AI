@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextStep AI</title>
+    <link rel="stylesheet" href="desktop_2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&family=Instrument+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a  href="../index.html"><img src="../img_2_logo.PNG" alt="Logo"></a>
+        </div>
+        <div class="links">
+            <a href="desktop_2_profile.html">Profile</a>
+            <a href="../desktop10/desktop10_dashboard.html">Dashboard</a>
+            <a href="../desktop5/desktop_5_skills.html">Skills</a>
+            <a href="../desktop4_6_9/desktop6_internships_saved.html">Internships</a>
+        </div>
+        <button class="signout">Sign Out</button>
+    </nav>
+
+    <!-- Heading + Progress Bar Section -->
+    <div class="intro-section">
+        <h1 style="font-family: 'Inria Serif', serif; margin-top: 40px;">Let’s Get To Know You</h1>
+        <p style="font-family: 'Instrument Sans', sans-serif; font-size: 18px;">Let AI guide your career—just tell us a bit about you.</p>
+
+        <div class="progress-wrapper">
+            <div class="progress-text"> <span class="progress-step">Step 1 of 4</span> <span
+                    class="progress-percent">25% Complete</span> </div>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 25%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Body -->
+    <main class="container">
+        <!-- Student Info Form -->
+        <div class="student-info">
+            <h2 style="font-family: 'Inria Serif', serif; color: #6a0dad;"><i class="fa-regular fa-user"></i>&nbsp;Student Info</h2>
+            <form id="studentForm">
+                <input type="text" placeholder="Enter your full name" required>
+                <input type="email" placeholder="Type your email" required>
+                <input type="number" placeholder="Enter your age" required>
+                
+                <select required>
+                    <option value="" disabled selected hidden>Select your qualification</option>
+                    <option value="highschool">High School</option>
+                    <option value="bachelors">Bachelors</option>
+                    <option value="masters">Masters</option>
+                </select>
+
+                <textarea placeholder="Describe any work experience, internships or relevant projects (optional)"></textarea>
+            </form>
+        </div>
+    </main>
+
+    <!-- Wrapper to align button -->
+    <div class="button-wrapper">
+        <button class="next-btn" type="submit" form="studentForm">Next →</button>
+    </div>
+
+    <script src="desktop2.js"></script>
+</body>
+</html>
