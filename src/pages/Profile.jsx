@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -214,7 +214,7 @@ const Profile = () => {
   return (
     <ProfileContainer>
       <IntroSection>
-        <h1>Let's Get To Know You</h1>
+        <h1>Let&apos;s Get To Know You</h1>
         <p>Let AI guide your career—just tell us a bit about you.</p>
         
         <ProgressWrapper>
